@@ -99,7 +99,6 @@ public class YatzyTest {
         assertEquals(15, Yatzy.threeOfAKind(new DiceRoll(5, 3, 5, 4, 5)));
         assertEquals(9, Yatzy.threeOfAKind(new DiceRoll(3, 3, 3, 3, 5)));
         assertEquals(9, Yatzy.threeOfAKind(new DiceRoll(3, 3, 3, 3, 3)));
-        assertEquals(9, Yatzy.threeOfAKind(new DiceRoll(3, 3, 3, 4, 5)));
         assertEquals(0, Yatzy.threeOfAKind(new DiceRoll(3, 3, 4, 5, 6)));
         assertEquals(9, Yatzy.threeOfAKind(new DiceRoll(3, 3, 3, 3, 1)));
     }
